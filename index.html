@@ -1,46 +1,76 @@
-<!doctype html>
-<html>
-<head>
-	<title>HTML Editor - Full Version</title>
-	<link href="chrome-extension://flghkehjclghmdkeckchoolckhajedpl/content.css" rel="stylesheet" />
-</head>
-<body>
-<h1 style="font-weight: normal; line-height: 1.2; color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS';">SOLVCON Seminor</h1>
+<p><head><title>SOLVCON Seminar</title></head></p>
 
-<h2 style="font-weight: normal; line-height: 1.2; color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS';">December 8, 2015</h2>
+<h1>SOLVCON Seminar</h1>
 
-<ul style="padding: 0px 40px; color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">
-	<li><span style="line-height: 1.6;">Where:&nbsp;</span><a href="https://moztw.org/space/" style="color: rgb(7, 130, 193);"><span style="line-height: 20.8px;">M</span></a><span style="line-height: 20.8px;"><a href="https://moztw.org/space/" style="color: rgb(7, 130, 193);">ozilla Community Space Taipei</a>.</span></li>
-	<li>When: 18:30 - 2030</li>
-	<li>This event will be held together with&nbsp;<a href="http://www.tossug.org/" style="color: rgb(7, 130, 193);">TOSSUG,&nbsp;Taipei Open Source Software User Group</a>.</li>
+<h2>December 8, 2015, Tuesday</h2>
+
+<ul>
+<li>Where: <a href="https://moztw.org/space/">Mozille Community Space Taipei</a></li>
+<li>When: 18:30-20:30</li>
+<li>This event will be held together with
+<a href="http://www.tossug.org/">Taipei Open Source Software User Group (TOSSUG)</a></li>
 </ul>
 
-<h2 style="font-weight: normal; line-height: 1.2; color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS';">Schedule</h2>
+<h2>Agenda</h2>
 
-<p><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">1830 Coffee and Chat</span></p>
+<table>
+<thead>
+<tr>
+  <th align="left">Time</th>
+  <th align="left">Topic</th>
+  <th align="left">Speaker</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">18:30 - 18:45</td>
+  <td align="left">Chat</td>
+</tr>
+<tr>
+  <td align="left">18:45 - 19:15</td>
+  <td align="left"><a href="#mesh">SOLVCON Mesh</a></td>
+  <td align="left">Yung-Yu</td>
+</tr>
+<tr>
+  <td align="left">19:15 - 19:45</td>
+  <td align="left">TBD</td>
+  <td align="left">You-Hao</td>
+</tr>
+<tr>
+  <td align="left">19:45 - 20:15</td>
+  <td align="left"><a href="#probe">Design of the Probe Feature</a></td>
+  <td align="left">Taihsiang</td>
+</tr>
+<tr>
+  <td align="left">20:15 - 20:30</td>
+  <td align="left">Wrap-up</td>
+</tr>
+</tbody>
+</table>
 
-<p><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">1845 Taihsiang Ho - Design of the probe feature</span></p>
+<h2>Abstract</h2>
 
-<p><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">1915&nbsp;You-hao Chang - xxxxxxxxx</span></p>
+<h3><a name="mesh"></a> SOLVCON Mesh</h3>
 
-<p><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">1945 Yung-yu Chen - Solvcon Mesh</span></p>
+<p>By <a href="mailto:yyc@solvcon.net">Yung-Yu Chen</a></p>
 
-<p><font color="#333333" face="sans-serif, Arial, Verdana, Trebuchet MS"><span style="font-size: 13px; line-height: 20.8px;">2015 Wrap up</span></font></p>
+<p>This talk introduces the data structures of the unstructured mesh in SOLVCON.
+The unstructured mesh of mixed elements use lookup tables. The speaker will
+show the constructs of the data structures, and how to use them to represent
+and manipulate the data. In addition, because SOLVCON uses domain decomposition
+for parallel computing, the speaker will explain how to use a graph partitioner
+to separate the globally connected mesh and minimize the inter-connection
+between split domains.</p>
 
-<p><font color="#333333" face="sans-serif, Arial, Verdana, Trebuchet MS"><span style="font-size: 13px; line-height: 20.8px;">2030 Sweet home!</span></font></p>
+<h3>TBD</h3>
 
-<h2 style="font-weight: normal; line-height: 1.2; color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS';">Agenda and Abstract</h2>
+<p>By You-Hao Chang</p>
 
-<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;"><u><strong><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">Taihsiang Ho - Design of the probe feature</span></strong></u></p>
+<h3><a name="probe"></a> Design of the Probe Feature</h3>
 
-<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;"><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">The probe feature could only dump the physics data at the end of the whole march. This talk is going to introduce how the current probe feature to fit the current loop structure of the march, and what is the possible roadmap to enhance this feature.</span></p>
+<p>By Taihsiang Ho</p>
 
-<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;"><u><strong><span style="line-height: 20.8px;">You-hao Chang - xxxxxxxxx</span></strong></u></p>
-
-<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;"><span style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</span></p>
-
-<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;"><u><strong><span style="line-height: 20.8px;">Yung-yu Chen - Solvcon Mesh</span></strong></u></p>
-
-<p style="color: rgb(51, 51, 51); font-family: sans-serif, Arial, Verdana, 'Trebuchet MS'; font-size: 13px; line-height: 20.8px;">This talk introduces the data structures of the unstructured mesh in SOLVCON. &nbsp;The unstructured mesh of mixed elements use lookup tables.&nbsp;The speaker will show the constructs of the data structures, and how to use them to represent and manipulate the data. In addition, because SOLVCON uses domain decomposition for parallel computing, the speaker will explain how to use a graph partitioner to separate the globally connected mesh and minimize the inter-connection between split domains.</p>
-</body>
-</html>
+<p>The probe feature could only dump the physics data at the end of the whole
+march. This talk is going to introduce how the current probe feature to fit the
+current loop structure of the march, and what is the possible roadmap to
+enhance this feature.</p>
